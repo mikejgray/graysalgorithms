@@ -1,17 +1,18 @@
 # Algorithm Practice in Python 3.7
-Adapted primarily from the JavaScript algorithms from FreeCodeCamp.com, these Python algorithm challenges are both a great way to get to know the Python standard libraries and a way for me to become familiar with automated testing. I'm also using it as an opportunity to become more familiar with enforcing Python style, packaging, and linting.
+Adapted primarily from the JavaScript algorithms from FreeCodeCamp.com, these Python algorithm challenges are both a great way to get to know the Python standard libraries and a way for me to become familiar with automated testing. I'm also using it as an opportunity to become more familiar with enforcing Python style, packaging, testing, and linting.
 
 All challenges should be easily completed using only Python's standard libraries. In fact, I'd go so far as to say it's not in the spirit of the challenges to use third party libraries. You should also avoid some of the "cheating" functions, such as `.endswith()` or the ROT13 decoding/encoding available.
 
-Pull requests are absolutely welcomed, along with feedback on style and new algorithm challenges! Since most of these came from JavaScript, some of them are easier or harder in Python. 
+Pull requests are absolutely welcome, along with feedback on style and new algorithm challenges! Since most of these came from JavaScript, some of them are easier or harder in Python. 
 
 # Installation
-Either clone this repository and `pip install .`.
+Clone this repository locally and run `pip install .`
 
 # Testing
 `pip install pytest`
-`pytest` from the root directory.
-Please note that if you have not completed a given algorithm challenge, pytest will show that it has failed. Focus on the positive and see how many you passed!
+`pip install . && pytest` from the root directory.
+* Please note that if you have not completed a given algorithm challenge, pytest will show that it has failed. Focus on the positive and see how many you passed!
+* Also note that if you alter the `algorithms.py` file you will need to re-run `pip install .` for pytest to catch your changes.
 
 # List of Algorithms and Their Instructions
 * Convert Celsius to Fahrenheit

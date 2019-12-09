@@ -16,15 +16,15 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="graysalgorithms",
-    version="0.5.0",
+    version="0.9.0",
     description="A series of algorithm challenges, derived from FreeCodeCamp.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/mikejgray/graysalgorithms",
-    author="Michael J. Gray",
+    author="Mike Gray",
     author_email="mike@graywind.org",
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.7",
