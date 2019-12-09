@@ -1,7 +1,7 @@
 from typing import Union
 
 
-def celsius_to_fahrenheit(c_temp: Union[str, int]) -> int:
+def celsius_to_fahrenheit(c_temp: Union[str, float]) -> float:
     """
     For information on type annotations in Python, visit:
     https://docs.python.org/3/library/typing.html
