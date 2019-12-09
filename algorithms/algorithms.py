@@ -3,10 +3,11 @@ from typing import Union
 
 def celsius_to_fahrenheit(c_temp: Union[str, float]) -> float:
     """
+    For information on type annotations in Python, visit:
+    https://docs.python.org/3/library/typing.html
     The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times 9/5, plus 32.
     """
-    temp = float(c_temp)
-    return (temp * (9 / 5)) + 32
+    return
 
 
 def reverse_string():
@@ -28,14 +29,14 @@ def factorialize():
 def longest_word_in_string():
     """
     Locates and returns the longest word in a string using RegEx.
-    If there are two words tied for longest, it will return the first.
+    If there are two words tied for longest, it should return the first.
     """
     return
 
 
 def largest_number_in_arrays():
     """
-    Given an array of numbers, return the largest.
+    Given an array of arrays of numbers, return the largest.
     """
     return
 
@@ -73,8 +74,7 @@ def finders_keepers():
 
 def slice_n_splice():
     """
-    You are given two arrays and an index.
-    Use the array methods slice and splice to copy each element of the first array into the second array, in order.
+    You are given two arrays and an index. Copy each element of the first array into the second array, in order.
     Begin inserting elements at index n of the second array.
     Return the resulting array. The input arrays should remain the same after the function runs.
     """
@@ -115,8 +115,8 @@ def chunky_monkey():
 
 def sum_all_numbers():
     """
-    We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers
-    between them. The lowest number will not always come first...
+    We'll pass you an list of two numbers. Return the sum of those two numbers plus the sum of all the numbers
+    between them. The lowest number will not always come first.
     """
     return
 
@@ -178,7 +178,7 @@ def myReplace():
     First argument is the sentence to perform the search and replace on.
     Second argument is the word that you will be replacing (before).
     Third argument is what you will be replacing the second argument with (after).
-    myReplace("Let us go to the store", "store", "mall") should return "Let us go to the mall".
+    myReplace("Let's go to the store", "store", "mall") should return "Let us go to the mall".
     """
     return
 
@@ -261,6 +261,9 @@ def drop_it():
     until the function func returns true when the iterated element is passed through it.
     Then return the rest of the array once the condition is satisfied, otherwise,
     arr should be returned as an empty array.
+
+    Example:
+    drop_it([1, 2, 3, 4], lambda x: x >= 3) should return [3, 4]
     """
     return
 
@@ -278,20 +281,6 @@ def binary_translator():
     The binary string will be space separated.
     binary_translator("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111") should return "Aren't bonfires fun!?"
     binary_translator("01001001 00100000 01101100 01101111 01110110 01100101 00100000 01000110 01110010 01100101 01100101 01000011 01101111 01100100 01100101 01000011 01100001 01101101 01110000 00100001") should return "I love FreeCodeCamp!"
-    """
-    return
-
-
-def truthCheck():
-    """
-    Check if the predicate (second argument) is truthy on all elements of a collection (first argument).
-    In other words, you are given an array collection of objects. The predicate pre will be an object property
-    and you need to return true if its value is truthy. Otherwise, return false.
-    In JavaScript, truthy values are values that translate to true when evaluated in a Boolean context.
-    truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, \
-        {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex") should return true.
-    truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy"}, {"user": "Laa-Laa", "sex": "female"},\
-        {"user": "Po", "sex": "female"}], "sex") should return false.
     """
     return
 
