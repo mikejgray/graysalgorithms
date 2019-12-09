@@ -104,10 +104,6 @@ def slice_n_splice(arr1: List[Any], arr2: List[Any], pos: int) -> List[Any]:
     return final
 
 
-x = slice_n_splice([1, 2, 3], [4, 5], 1)
-print("BREAK")
-
-
 def getIndexToIns(array: list, value: float) -> int:
     """
     Return the lowest index at which a value (second argument)
@@ -448,8 +444,9 @@ def smallest_common_multiple(arr: List[int]) -> int:
     """
     arr.sort()
     i = 1
+    answer = []
     while True:
-        answer = []
+        answer.clear()
         multiple = arr[0] * arr[1] * i
         for number in list(range(arr[0], arr[1] + 1)):
             if multiple % number != 0:
@@ -457,7 +454,6 @@ def smallest_common_multiple(arr: List[int]) -> int:
         i += 1
         if False not in answer:
             return multiple
-        answer.clear()
 
 
 def drop_it(arr: list, func: Callable) -> list:
